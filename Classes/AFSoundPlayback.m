@@ -120,7 +120,7 @@ NSString * const AFSoundPlaybackFinishedNotification = @"kAFSoundPlaybackFinishe
     [_player seekToTime:CMTimeMake(0, 1)];
 }
 
--(void)playAtSecond:(NSInteger)second {
+-(void)playAtSecond:(CGFloat)second {
     
     [_player seekToTime:CMTimeMake(second, 1)];
 }
