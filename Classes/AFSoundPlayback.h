@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, AFSoundStatus) {
 -(void)pause;
 -(void)restart;
 
--(void)playAtSecond:(NSInteger)second;
+-(void)playAtSecond:(CGFloat)second;
 
 -(void)listenFeedbackUpdatesWithBlock:(feedbackBlock)block andFinishedBlock:(finishedBlock)finishedBlock;
 -(NSDictionary *)statusDictionary;
